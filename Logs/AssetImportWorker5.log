@@ -1,0 +1,1466 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.37f1 (090b7797214c) revision 592759'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'pt' Physical Memory: 8067 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+C:/Users/gui_m/OneDrive/Documentos/GitHub/SpeedCarBarao-main/UnitySpeedRacingBarao
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+49826
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/gui_m/OneDrive/Documentos/GitHub/SpeedCarBarao-main/UnitySpeedRacingBarao
+C:/Users/gui_m/OneDrive/Documentos/GitHub/SpeedCarBarao-main/UnitySpeedRacingBarao
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [20708]  Target information:
+
+Player connection [20708]  * "[IP] 10.1.177.6 [Port] 0 [Flags] 2 [Guid] 2179652608 [EditorId] 2179652608 [Version] 1048832 [Id] WindowsEditor(7,RSPN-4102) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [20708] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [20708] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 11.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.37f1 (090b7797214c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/gui_m/OneDrive/Documentos/GitHub/SpeedCarBarao-main/UnitySpeedRacingBarao/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x3ea0)
+    Vendor:   Intel
+    VRAM:     4033 MB
+    Driver:   31.0.101.2127
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.108914 seconds.
+- Loaded All Assemblies, in  3.510 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 3583 ms
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  6.266 seconds
+Domain Reload Profiling: 9747ms
+	BeginReloadAssembly (895ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (12ms)
+	RebuildCommonClasses (327ms)
+	RebuildNativeTypeToScriptingClass (100ms)
+	initialDomainReloadingComplete (469ms)
+	LoadAllAssembliesAndSetupDomain (1684ms)
+		LoadAssemblies (876ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1634ms)
+			TypeCache.Refresh (1629ms)
+				TypeCache.ScanAssembly (1436ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (6272ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (6064ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4079ms)
+			SetLoadedEditorAssemblies (35ms)
+			BeforeProcessingInitializeOnLoad (410ms)
+			ProcessInitializeOnLoadAttributes (1291ms)
+			ProcessInitializeOnLoadMethodAttributes (248ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  6.960 seconds
+Refreshing native plugins compatible for Editor in 2.89 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  4.814 seconds
+Domain Reload Profiling: 11724ms
+	BeginReloadAssembly (1303ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (206ms)
+	RebuildCommonClasses (209ms)
+	RebuildNativeTypeToScriptingClass (47ms)
+	initialDomainReloadingComplete (185ms)
+	LoadAllAssembliesAndSetupDomain (5164ms)
+		LoadAssemblies (3541ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2405ms)
+			TypeCache.Refresh (1772ms)
+				TypeCache.ScanAssembly (1694ms)
+			BuildScriptInfoCaches (384ms)
+			ResolveRequiredComponents (237ms)
+	FinalizeReload (4816ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (4014ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (75ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (733ms)
+			ProcessInitializeOnLoadAttributes (2620ms)
+			ProcessInitializeOnLoadMethodAttributes (489ms)
+			AfterProcessingInitializeOnLoad (88ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 3.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4098 unused Assets / (2.0 MB). Loaded Objects now: 4760.
+Memory consumption went from 136.0 MB to 134.0 MB.
+Total: 32.099900 ms (FindLiveObjects: 1.771300 ms CreateObjectMapping: 1.106700 ms MarkObjects: 25.920600 ms  DeleteObjects: 3.295300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1518.731142 seconds.
+  path: Assets/Truck_LowPoly/Materials/Front_Main_Body.mat
+  artifactKey: Guid(b82ad8482cbfa324f8d697916f3bad89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Truck_LowPoly/Materials/Front_Main_Body.mat using Guid(b82ad8482cbfa324f8d697916f3bad89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c27cdd32813ef78cfbd69e36b2ce3ec') in 1.7196712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Photon Unity Networking/Demos/DemoSynchronization/DemoSynchronization-Scene.unity
+  artifactKey: Guid(caec1ee6e27780946b8db3d1aebaa478) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Photon Unity Networking/Demos/DemoSynchronization/DemoSynchronization-Scene.unity using Guid(caec1ee6e27780946b8db3d1aebaa478) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) (ScriptedImporter)Opening scene 'Assets/Photon Unity Networking/Demos/DemoSynchronization/DemoSynchronization-Scene.unity additively'
+Loaded scene 'Assets/Photon Unity Networking/Demos/DemoSynchronization/DemoSynchronization-Scene.unity'
+	Deserialize:            23.956 ms
+	Integration:            35.032 ms
+	Integration of assets:  12.505 ms
+	Thread Wait Time:       0.121 ms
+	Total Operation Time:   71.614 ms
+ -> (artifact id: '7314525a4f0390d925b41134f000d565') in 0.2918894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.608343 seconds.
+  path: Assets/Truck_LowPoly/Textures/Container/Container_Base2.png
+  artifactKey: Guid(efe3c907eb36cf84ab09f4996250be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/Container/Container_Base2.png using Guid(efe3c907eb36cf84ab09f4996250be9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '063477ee7a15ae417c1328b9bcfda51f') in 0.1377505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Truck_LowPoly/Textures/Container/Container_Normal.png
+  artifactKey: Guid(5dbcf6ea3f52ca546bfdcc4beba85af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/Container/Container_Normal.png using Guid(5dbcf6ea3f52ca546bfdcc4beba85af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4896c1e50f55f9957bfd132997901f6e') in 0.1648802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.193710 seconds.
+  path: Assets/Truck_LowPoly/Materials/Container_Skin02.mat
+  artifactKey: Guid(033d84a8476edd44ab294a2e1ca8de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Container_Skin02.mat using Guid(033d84a8476edd44ab294a2e1ca8de4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7042e99636c4b048ce4dc116ff466934') in 0.8873584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.185356 seconds.
+  path: Assets/Truck_LowPoly/Materials/Front_Main_Body 2.mat
+  artifactKey: Guid(21e556080923d7841baaa2824c4772b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Front_Main_Body 2.mat using Guid(21e556080923d7841baaa2824c4772b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2674b5b59718e8a1ca5ac17eeadaa2af') in 0.0584768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017587 seconds.
+  path: Assets/Truck_LowPoly/Materials/Glass.mat
+  artifactKey: Guid(c72c4cd912366e5488cf15d04c97b355) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/Glass.mat using Guid(c72c4cd912366e5488cf15d04c97b355) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '981c36396bc5515b8dca9ba7cb7597ca') in 0.0163136 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022472 seconds.
+  path: Assets/Truck_LowPoly/Materials/SkyBox.mat
+  artifactKey: Guid(3d17c1a5a35f4b940a67dbf929d70a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Materials/SkyBox.mat using Guid(3d17c1a5a35f4b940a67dbf929d70a9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11724e0908839bbc5112bffbbc332935') in 0.0175815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.661924 seconds.
+  path: Assets/Truck_LowPoly/Textures/Engines/Engines_Metalic.png
+  artifactKey: Guid(ba91e15b8b3d6df4bb8c96bbbc70fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/Engines/Engines_Metalic.png using Guid(ba91e15b8b3d6df4bb8c96bbbc70fc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ee181313ca6f5da25ba6d75843193d6') in 0.0260149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.519568 seconds.
+  path: Assets/Truck_LowPoly/Textures/FrontBottomPart/FrontBottom_Base2.png
+  artifactKey: Guid(4613ad099b4c14f4f8eff7e58246505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/FrontBottomPart/FrontBottom_Base2.png using Guid(4613ad099b4c14f4f8eff7e58246505d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7722d04190c79f03e6915ee375404cb2') in 0.0212602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Truck_LowPoly/Textures/FrontBottomPart/FrontBottom_Base3.png
+  artifactKey: Guid(8da482496ebdc6644bfc253865b62818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/FrontBottomPart/FrontBottom_Base3.png using Guid(8da482496ebdc6644bfc253865b62818) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03a0a1abc69c9bc53fd6769dacfca7c4') in 0.0150165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Truck_LowPoly/Textures/FrontBottomPart/FrontBottom_Metalic.png
+  artifactKey: Guid(e2739ea554fdaf244bb326e21e53dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/FrontBottomPart/FrontBottom_Metalic.png using Guid(e2739ea554fdaf244bb326e21e53dd7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a182d86e124fc27e6b7c67c168fc4e7e') in 0.0149968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419720 seconds.
+  path: Assets/Truck_LowPoly/Textures/FrontMain/FrontMain_Base2.png
+  artifactKey: Guid(9022406aff567904480e9995c246e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/FrontMain/FrontMain_Base2.png using Guid(9022406aff567904480e9995c246e7d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe97e12752a9ba63bbeb253e40bb5cef') in 0.0165534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Truck_LowPoly/Textures/FrontMain/FrontMain_Base3.png
+  artifactKey: Guid(d6b826545918d8b428ac82726d865e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/FrontMain/FrontMain_Base3.png using Guid(d6b826545918d8b428ac82726d865e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0d9fd6775d9d6a29ba3a281213e7c46') in 0.0183147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Truck_LowPoly/Textures/FrontMain/FrontMain_Metalic.png
+  artifactKey: Guid(960b510c6dbe9354abf5614b9efb5b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/FrontMain/FrontMain_Metalic.png using Guid(960b510c6dbe9354abf5614b9efb5b8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d0e6a994fec15e3f0b8bfa9d73b71c6') in 0.0132158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.550275 seconds.
+  path: Assets/Truck_LowPoly/Textures/Others/Truck low poly v7_Glass_BaseColor.png
+  artifactKey: Guid(9b139bb6e7b62764cb920a949ae89854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/Others/Truck low poly v7_Glass_BaseColor.png using Guid(9b139bb6e7b62764cb920a949ae89854) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '436cb4d2a30230e596ad4bf33a2d9d78') in 0.0222918 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.547757 seconds.
+  path: Assets/Truck_LowPoly/Textures/Wheels/Wheel_Metalic.png
+  artifactKey: Guid(2234b13b8ff82ba49b27a5476a8bceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Textures/Wheels/Wheel_Metalic.png using Guid(2234b13b8ff82ba49b27a5476a8bceca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f301f1008fbeca9b5b51e6820ee6aef') in 0.0222528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.864718 seconds.
+  path: Assets/Arcade Racing Cars/Pickup Jeep/Materials/Standard/ArcadeCars_Jeep_Base_Base_Standard.mat
+  artifactKey: Guid(1a915e0f036b2a049b7f7a636a5e12aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade Racing Cars/Pickup Jeep/Materials/Standard/ArcadeCars_Jeep_Base_Base_Standard.mat using Guid(1a915e0f036b2a049b7f7a636a5e12aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc8501154a49f55eb15cc8a21dcef3c9') in 0.0237645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Arcade Racing Cars/Pickup Jeep/Materials/Standard/ArcadeCars_Jeep_FrontLights_Standard.mat
+  artifactKey: Guid(27d8353c9a254854aa721674d83bb313) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade Racing Cars/Pickup Jeep/Materials/Standard/ArcadeCars_Jeep_FrontLights_Standard.mat using Guid(27d8353c9a254854aa721674d83bb313) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5333087159c3acdab2edc47e5116d260') in 0.0181089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.244457 seconds.
+  path: Assets/Arcade Racing Cars/Pickup Jeep/Materials/LWRP/ArcadeCars_Jeep_Base_Base_LWRP.mat
+  artifactKey: Guid(b4b0cafde0aba6b4b914432852156e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade Racing Cars/Pickup Jeep/Materials/LWRP/ArcadeCars_Jeep_Base_Base_LWRP.mat using Guid(b4b0cafde0aba6b4b914432852156e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1a9081bcadebcc40789f2ba23042881') in 0.0367629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Arcade Racing Cars/Pickup Jeep/Materials/LWRP/ArcadeCars_Jeep_FrontLights_LWRP.mat
+  artifactKey: Guid(f749a9d2f40241745beb69ac4df8021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade Racing Cars/Pickup Jeep/Materials/LWRP/ArcadeCars_Jeep_FrontLights_LWRP.mat using Guid(f749a9d2f40241745beb69ac4df8021b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2ef67565f9f61826f865c0fd0080f52') in 2.0522776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.063685 seconds.
+  path: Assets/Arcade Racing Cars/Pickup Jeep/Prefabs/ARC_Jeep_Standard.prefab
+  artifactKey: Guid(5b6f9caefa8fc8a4b85d546b9d431bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Arcade Racing Cars/Pickup Jeep/Prefabs/ARC_Jeep_Standard.prefab using Guid(5b6f9caefa8fc8a4b85d546b9d431bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8d9fbcef5adca35ae74da20658e5013d') in 0.0936746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 71
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.843682 seconds.
+  path: Assets/Truck_LowPoly/Scenes/TruckDemo/LightingData.asset
+  artifactKey: Guid(0fe021759d7b9764890cf36a4348e23c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Truck_LowPoly/Scenes/TruckDemo/LightingData.asset using Guid(0fe021759d7b9764890cf36a4348e23c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aca77229a03e4c15e35ffcf4f104186') in 0.0133984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Truck_LowPoly/Scenes
+  artifactKey: Guid(de1f3538a7a471046aaa4e8e7c9cf40d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Truck_LowPoly/Scenes using Guid(de1f3538a7a471046aaa4e8e7c9cf40d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0aeb08a3e4e0ca95074e1d356b4c076a') in 0.0121303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000389 seconds.
+  path: Assets/Truck_LowPoly/Documentation/Documentation Truck low Poly.txt
+  artifactKey: Guid(e7acba7b78d97a04d862fb69eeb744cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Truck_LowPoly/Documentation/Documentation Truck low Poly.txt using Guid(e7acba7b78d97a04d862fb69eeb744cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf6df894332b3b0d29d1ecba786f750e') in 0.0144346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Truck_LowPoly/Scenes/TruckDemo.unity
+  artifactKey: Guid(737feac05b8f0f0408615fe58cf780bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Truck_LowPoly/Scenes/TruckDemo.unity using Guid(737feac05b8f0f0408615fe58cf780bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edee5a71c283bdb7ce1e205ab10b7f6f') in 0.0134951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Truck_LowPoly/Documentation
+  artifactKey: Guid(58a6f16dd4625624ca3bf08782121ee3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Truck_LowPoly/Documentation using Guid(58a6f16dd4625624ca3bf08782121ee3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c138367acb169d58bd1825b080684ab9') in 0.0051652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.875237 seconds.
+  path: Assets/Truck_LowPoly/Scenes/TruckDemo/LightingData.asset
+  artifactKey: Guid(0fe021759d7b9764890cf36a4348e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Truck_LowPoly/Scenes/TruckDemo/LightingData.asset using Guid(0fe021759d7b9764890cf36a4348e23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c14f3b2d14f1dceaeaf9072c1ad4d22e') in 0.0065361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 235.040335 seconds.
+  path: Assets/Ukraine_only_truck/textures/Thumbs.db
+  artifactKey: Guid(45232a27922dc09478178e0a84a8d078) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/textures/Thumbs.db using Guid(45232a27922dc09478178e0a84a8d078) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c510b82706d2b6bf9300510b0b14ec4c') in 0.219009 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000911 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_5/kamaz_wood_truck_yellow.fbx
+  artifactKey: Guid(a2fecb3a1a5162d428e5910a529019c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_5/kamaz_wood_truck_yellow.fbx using Guid(a2fecb3a1a5162d428e5910a529019c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f787276410a68c97897376170086703d') in 1.4927154 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_black.prefab
+  artifactKey: Guid(f63f92aa5c63f974a9578960fb4e10b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_black.prefab using Guid(f63f92aa5c63f974a9578960fb4e10b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5db013065f023320bf83847c150d7c24') in 0.0715012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_7/truck_6_red.prefab
+  artifactKey: Guid(366c4e3019bd2cc438b1b24cf8bf8ed0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_7/truck_6_red.prefab using Guid(366c4e3019bd2cc438b1b24cf8bf8ed0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dcf6fd9dc0546ee65211d7c4da940960') in 0.0294446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_6/kamaz_truck_on_board_awning_white.fbx
+  artifactKey: Guid(e7e864bfcf083ec44b318e8cc2f56b0c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_6/kamaz_truck_on_board_awning_white.fbx using Guid(e7e864bfcf083ec44b318e8cc2f56b0c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4fc15d5c3a3e245192de8e7eb0f39ba9') in 0.0851392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_5/kamaz_wood_truck_red.fbx
+  artifactKey: Guid(31af3d964af2df549b95ab36b14f1256) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_5/kamaz_wood_truck_red.fbx using Guid(31af3d964af2df549b95ab36b14f1256) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7647f7377a663a91cc07d751b360bc6') in 0.0756453 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_white.fbx
+  artifactKey: Guid(b39cc45903cc2644fbf5428a08316363) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_white.fbx using Guid(b39cc45903cc2644fbf5428a08316363) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ede8ac67d97480030bf2fddfc1686712') in 0.0632963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_gray.prefab
+  artifactKey: Guid(d13be13742c3d1e4c8b97cee0c7cbf08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_gray.prefab using Guid(d13be13742c3d1e4c8b97cee0c7cbf08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba9a42cce1408d099a7533a71eb9356d') in 0.0247644 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_4/kamaz_sand_truck_yellow.fbx
+  artifactKey: Guid(164b426f78b711a488236658a343ee86) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_4/kamaz_sand_truck_yellow.fbx using Guid(164b426f78b711a488236658a343ee86) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ca9abfd2e448e87b0e816aff89ab3e2') in 0.0827978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 66
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_green.prefab
+  artifactKey: Guid(0c5c31e087b34bc41a6bde3e462a8cc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_green.prefab using Guid(0c5c31e087b34bc41a6bde3e462a8cc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17b89b580cb89f9a7cd7dc07241b2eed') in 0.0199561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Ukraine_only_truck/materials
+  artifactKey: Guid(5c30c0bd5a7eb8e419e76e55e5c12f1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/materials using Guid(5c30c0bd5a7eb8e419e76e55e5c12f1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '358f0270b19ab26f2954dd2915954638') in 0.0068287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_red.fbx
+  artifactKey: Guid(7f429ffe7eefc0a40a5f43634ee9f4e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_red.fbx using Guid(7f429ffe7eefc0a40a5f43634ee9f4e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'afdbe0675a6123634017e6acb068bd5b') in 0.0494963 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_red.prefab
+  artifactKey: Guid(6a75178cac91a7a4e840adf263087255) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_red.prefab using Guid(6a75178cac91a7a4e840adf263087255) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58466adef959d132070e4bdef6349c41') in 0.0317601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_2/kamaz_truck_on_board_white.fbx
+  artifactKey: Guid(27a99c0e464279d49bb7efdaadcc646f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_2/kamaz_truck_on_board_white.fbx using Guid(27a99c0e464279d49bb7efdaadcc646f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3156284a7e91b75042315957ad6716e1') in 0.0712904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_black.prefab
+  artifactKey: Guid(b59421f209b480047a945f19e6481b5b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_black.prefab using Guid(b59421f209b480047a945f19e6481b5b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bfe7fb69a1d4fea3ccfdbb30981dd5d1') in 0.0192832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders
+  artifactKey: Guid(029d79393f9923042ad6b0f873efc75c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders using Guid(029d79393f9923042ad6b0f873efc75c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53f2359e75fbdb90573e3b21b44bab3a') in 0.0081177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_white.fbx
+  artifactKey: Guid(a7c8b4eae9addaf429e92178b44fafe4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_white.fbx using Guid(a7c8b4eae9addaf429e92178b44fafe4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74b1fd5d79e05817342132a177119fa1') in 0.0660888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_red.prefab
+  artifactKey: Guid(b75895da283eaef4fb02982aa2f7885a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_red.prefab using Guid(b75895da283eaef4fb02982aa2f7885a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4470eec40f60aedd462674c15b2f1b7') in 0.0236694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_7/kamaz_container_truck_white.fbx
+  artifactKey: Guid(6e05137f35988a949afda3d4ce96655e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_7/kamaz_container_truck_white.fbx using Guid(6e05137f35988a949afda3d4ce96655e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc414bf9dc0891fee1e39cb0f85cde54') in 0.0965202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_yellow.fbx
+  artifactKey: Guid(af4fef8b041a1934a9c0bba965b8e68b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_yellow.fbx using Guid(af4fef8b041a1934a9c0bba965b8e68b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0977e36627e5bd3f53d43f9e1ea301d7') in 0.047708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_3
+  artifactKey: Guid(9ead56daf4cd34846a075793b996ac7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_3 using Guid(9ead56daf4cd34846a075793b996ac7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c91a102469c7f73a663ddeb438c8a3e') in 0.0103879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_green.prefab
+  artifactKey: Guid(74b24a8981361f746b5bc44aa7ccbbd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_green.prefab using Guid(74b24a8981361f746b5bc44aa7ccbbd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1d6f69a449828b6dd1597a50a0b2aa8c') in 0.0306008 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_white.prefab
+  artifactKey: Guid(33b154871d4d0f2479203e4c81d9a5bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_white.prefab using Guid(33b154871d4d0f2479203e4c81d9a5bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff16288feff917a9d9f7fc547b174756') in 0.0236767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_6/kamaz_truck_on_board_awning_blue.fbx
+  artifactKey: Guid(d78eaa05b5602064da54a5cf2ddf2380) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_6/kamaz_truck_on_board_awning_blue.fbx using Guid(d78eaa05b5602064da54a5cf2ddf2380) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5126429e5ea28e1fa87b2ea631d1f116') in 0.0624343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 51
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Ukraine_only_truck/materials/all_colors.mat
+  artifactKey: Guid(91fc33068a263294782038180ce2b84e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/materials/all_colors.mat using Guid(91fc33068a263294782038180ce2b84e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'af40b848f402294e6df65bdbee52f22c') in 0.0188438 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_7/truck_6_green.prefab
+  artifactKey: Guid(824ee82f4f03b6c47be16b51ad6bf700) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_7/truck_6_green.prefab using Guid(824ee82f4f03b6c47be16b51ad6bf700) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89778b6e248a8bbf971ef71292430fa9') in 0.0227168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_orange.fbx
+  artifactKey: Guid(55e0fd22c9566fd44bd64263e14a6b5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_orange.fbx using Guid(55e0fd22c9566fd44bd64263e14a6b5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2ac29b31358a6b77cb3781bc56acb3bb') in 0.0905463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_6
+  artifactKey: Guid(3a00fbc011c05184ea98183fc791085d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_6 using Guid(3a00fbc011c05184ea98183fc791085d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be017f2fad43fc74f480215defe964ee') in 0.0071932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_black.fbx
+  artifactKey: Guid(99286866f8c285b45a392bf9e5b35bd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_black.fbx using Guid(99286866f8c285b45a392bf9e5b35bd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a997be51fe4bc4089372ddfbdc90b9ab') in 0.044583 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders
+  artifactKey: Guid(068ae7e6799a8f24cad113feaa2c5593) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders using Guid(068ae7e6799a8f24cad113feaa2c5593) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '567beb7999cd0e270d51722bc32d34b0') in 0.0079932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_brown.prefab
+  artifactKey: Guid(671e2578a784ddb4e974612928a2e534) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_brown.prefab using Guid(671e2578a784ddb4e974612928a2e534) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f8d16d88439d9e687117f82d9e26f836') in 0.0471262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_white.prefab
+  artifactKey: Guid(e446836910cd39946b4e3a0e2206ba45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_white.prefab using Guid(e446836910cd39946b4e3a0e2206ba45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c9b54bf3d5404d4d2b44f28ab927b6c') in 0.0418618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_orange.prefab
+  artifactKey: Guid(9c3da6a8ecc65cb4badd7eb5e3c26640) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_orange.prefab using Guid(9c3da6a8ecc65cb4badd7eb5e3c26640) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7f52f0eb0717632da8656421adecf0ab') in 0.0335706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_white.prefab
+  artifactKey: Guid(9b808a7e34bffb44496c7205ef8e38ef) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_white.prefab using Guid(9b808a7e34bffb44496c7205ef8e38ef) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e7d577c8b961dc0af7ab413be3b38e1f') in 0.0211242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_green.prefab
+  artifactKey: Guid(55d9400de748a7740bb9123b6da29ca2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_green.prefab using Guid(55d9400de748a7740bb9123b6da29ca2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51ceddb8191c9b31f2190757e2915816') in 0.0250871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_7/kamaz_container_truck_yellow.fbx
+  artifactKey: Guid(93c7b0497505b244da256d4911505cc0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_7/kamaz_container_truck_yellow.fbx using Guid(93c7b0497505b244da256d4911505cc0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '43010aea045dd6dec4f34a7bd00fd4dd') in 0.0832989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 56
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_6
+  artifactKey: Guid(9e7ab7a83c3ca314e98a12e832fdd45d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_6 using Guid(9e7ab7a83c3ca314e98a12e832fdd45d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ead69560ece791bb6ff02843f442bb23') in 0.0141525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_2/kamaz_truck_on_board_black.fbx
+  artifactKey: Guid(c77efbd780eb3984bac400a5a5948ae2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_2/kamaz_truck_on_board_black.fbx using Guid(c77efbd780eb3984bac400a5a5948ae2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cc3dd77f350189b3b6c269c7da644b9') in 0.0949513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_1
+  artifactKey: Guid(0b50568522dabf34284547096ac9c746) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_1 using Guid(0b50568522dabf34284547096ac9c746) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6d7f7e6e6054992a79836cdaf9da253') in 0.0141732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4
+  artifactKey: Guid(8c76a2d6d31b7b2459a25559010c232c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4 using Guid(8c76a2d6d31b7b2459a25559010c232c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '38e0c5411f89f765ecfc8f58a345cbfa') in 0.0173176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_yellow.prefab
+  artifactKey: Guid(093d651ddc069284bb5461efa28862ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_yellow.prefab using Guid(093d651ddc069284bb5461efa28862ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e699c4cef7d2ba967f1c9022a1056bdb') in 0.0188903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_7/truck_6_orange.prefab
+  artifactKey: Guid(125b9061c4f4b5649a4ac65142f40d42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_7/truck_6_orange.prefab using Guid(125b9061c4f4b5649a4ac65142f40d42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ec974aed6ed84e0ea1b4d960611899c') in 0.026322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 88
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_cherry.prefab
+  artifactKey: Guid(9fd2d10766958d24d824f47b4b9f449a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3/truck_3_cherry.prefab using Guid(9fd2d10766958d24d824f47b4b9f449a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2c819dde53a403b87dca14791b572f94') in 0.0317513 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 70
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3
+  artifactKey: Guid(19939882eb9043f4a90111b135267ea0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_3 using Guid(19939882eb9043f4a90111b135267ea0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1e706a4722ed9c60e1c7a72e7e0670a4') in 0.0596771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_4
+  artifactKey: Guid(4816b07ec2c6c0e4c8dbff9f79af5736) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_4 using Guid(4816b07ec2c6c0e4c8dbff9f79af5736) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dd1989017d3fb4a9c1e76a6c2860b79b') in 0.0109439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_blue.prefab
+  artifactKey: Guid(0e8331fa2d9bcc543ae35a7ecc76320f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_blue.prefab using Guid(0e8331fa2d9bcc543ae35a7ecc76320f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11dc053b6a83fabe6b30a2f9ac550770') in 0.0314991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5
+  artifactKey: Guid(c543ea1492dacbd4dbfb453ea78aa78f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5 using Guid(c543ea1492dacbd4dbfb453ea78aa78f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c0611d74afb3e3e5c1c9a1cd3ce236c1') in 0.0101534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_yellow.prefab
+  artifactKey: Guid(b342e89c4d392e64ba741b84f89519b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_5/truck_5_yellow.prefab using Guid(b342e89c4d392e64ba741b84f89519b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a75f05da433e57a4a427e9c0d0e27e2e') in 0.0252093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_gray.fbx
+  artifactKey: Guid(d500e18b258b5f04aa6e1d3296f5b467) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_3/kamaz_fuel_truck_gray.fbx using Guid(d500e18b258b5f04aa6e1d3296f5b467) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0111a137b6a4941bf3f125c247df44bb') in 0.0893318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_black.prefab
+  artifactKey: Guid(8784cee67cb5a1245bc4e15c7df8d321) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_black.prefab using Guid(8784cee67cb5a1245bc4e15c7df8d321) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '297f43e9dca908da46f77cff6ca07662') in 0.0239149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_orange.prefab
+  artifactKey: Guid(6b173bd891be8ba48af7a80523514b8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_orange.prefab using Guid(6b173bd891be8ba48af7a80523514b8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '953abf09e19e271c5312745c154cac48') in 0.0228573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_2/kamaz_truck_on_board_brown.fbx
+  artifactKey: Guid(605ea9e456a470c4093e185bda755401) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_2/kamaz_truck_on_board_brown.fbx using Guid(605ea9e456a470c4093e185bda755401) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b5aa9ae96443f4fce1fafa43fbd1d69') in 0.077845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_yellow.prefab
+  artifactKey: Guid(5d1170c0b56e8484796a56a7857eacd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_4/truck_4_yellow.prefab using Guid(5d1170c0b56e8484796a56a7857eacd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c47bb1d1d39e5a56d21faca827e0b3ef') in 0.0402809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 113
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_white.prefab
+  artifactKey: Guid(3091c117a04546e419264941f409a74e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_2/truck_2_white.prefab using Guid(3091c117a04546e419264941f409a74e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '83fa4093d472f20d184a2a623e728466') in 0.0198859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 74
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars
+  artifactKey: Guid(c731856b8f7f4564c80becc618d86516) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars using Guid(c731856b8f7f4564c80becc618d86516) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96d987997e3098aa89f6714a86be2d5e') in 0.0083036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_green.fbx
+  artifactKey: Guid(b23db25f4e9c6974e95cd6f94b530fda) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/mesh/cars/truck/truck_1/kamaz_truck_green.fbx using Guid(b23db25f4e9c6974e95cd6f94b530fda) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48dbcafc1f8932c5ce4ba80cb3cda0aa') in 0.0664987 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_orange.prefab
+  artifactKey: Guid(ee75ea5a568ffc84a892275843f5ebab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_orange.prefab using Guid(ee75ea5a568ffc84a892275843f5ebab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a2d98825c23ed20e79aaf2f6cf44c398') in 0.0474404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 65
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.648920 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_blue.prefab
+  artifactKey: Guid(6826e33421dbc594388a1a4929534df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_blue.prefab using Guid(6826e33421dbc594388a1a4929534df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d4adb3286015c1dd1709c709e173cf5') in 0.0796777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_yellow.prefab
+  artifactKey: Guid(093d651ddc069284bb5461efa28862ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_yellow.prefab using Guid(093d651ddc069284bb5461efa28862ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b153c3c321dcd5346fe739836b3d8a7a') in 0.0218623 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_orange.prefab
+  artifactKey: Guid(ee75ea5a568ffc84a892275843f5ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ukraine_only_truck/Prefabs_With_Colliders/cars_colliiders/truck/truck_1/truck_1_orange.prefab using Guid(ee75ea5a568ffc84a892275843f5ebab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '943728918b3e0aacdd638f0a875ae50a') in 0.0283889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 98
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  7.474 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.465 seconds
+Domain Reload Profiling: 10939ms
+	BeginReloadAssembly (3731ms)
+		ExecutionOrderSort (3ms)
+		DisableScriptedObjects (416ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (25ms)
+		CreateAndSetChildDomain (1371ms)
+	RebuildCommonClasses (194ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (214ms)
+	LoadAllAssembliesAndSetupDomain (3260ms)
+		LoadAssemblies (3020ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (895ms)
+			TypeCache.Refresh (60ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (750ms)
+			ResolveRequiredComponents (42ms)
+	FinalizeReload (3467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2471ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (66ms)
+			SetLoadedEditorAssemblies (13ms)
+			BeforeProcessingInitializeOnLoad (536ms)
+			ProcessInitializeOnLoadAttributes (1577ms)
+			ProcessInitializeOnLoadMethodAttributes (241ms)
+			AfterProcessingInitializeOnLoad (36ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4098 unused Assets / (3.0 MB). Loaded Objects now: 4848.
+Memory consumption went from 127.5 MB to 124.4 MB.
+Total: 37.078100 ms (FindLiveObjects: 3.527200 ms CreateObjectMapping: 1.815500 ms MarkObjects: 22.095900 ms  DeleteObjects: 9.294000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.553 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.107 seconds
+Domain Reload Profiling: 3650ms
+	BeginReloadAssembly (369ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (110ms)
+	RebuildCommonClasses (95ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (986ms)
+		LoadAssemblies (846ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (265ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (2108ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1663ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (1150ms)
+			ProcessInitializeOnLoadMethodAttributes (229ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Refreshing native plugins compatible for Editor in 8.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.7 MB). Loaded Objects now: 4850.
+Memory consumption went from 125.7 MB to 122.0 MB.
+Total: 23.547900 ms (FindLiveObjects: 3.385800 ms CreateObjectMapping: 2.808800 ms MarkObjects: 11.753300 ms  DeleteObjects: 5.594400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.184 seconds
+Refreshing native plugins compatible for Editor in 2.11 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.680 seconds
+Domain Reload Profiling: 2858ms
+	BeginReloadAssembly (266ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (79ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (750ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (238ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (205ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1682ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1311ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (891ms)
+			ProcessInitializeOnLoadMethodAttributes (181ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 6.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.8 MB). Loaded Objects now: 4852.
+Memory consumption went from 125.7 MB to 121.9 MB.
+Total: 29.432000 ms (FindLiveObjects: 1.049500 ms CreateObjectMapping: 2.849000 ms MarkObjects: 19.542400 ms  DeleteObjects: 5.988700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.090 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.946 seconds
+Domain Reload Profiling: 3030ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (88ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (677ms)
+		LoadAssemblies (573ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (199ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1949ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (1170ms)
+			ProcessInitializeOnLoadMethodAttributes (178ms)
+			AfterProcessingInitializeOnLoad (25ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (37ms)
+Refreshing native plugins compatible for Editor in 5.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.5 MB). Loaded Objects now: 4854.
+Memory consumption went from 125.7 MB to 122.2 MB.
+Total: 35.306800 ms (FindLiveObjects: 1.414500 ms CreateObjectMapping: 2.743300 ms MarkObjects: 24.307000 ms  DeleteObjects: 6.838400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.389 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.020 seconds
+Domain Reload Profiling: 4404ms
+	BeginReloadAssembly (293ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (82ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (937ms)
+		LoadAssemblies (699ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (375ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (336ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (3022ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2540ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (306ms)
+			ProcessInitializeOnLoadAttributes (1877ms)
+			ProcessInitializeOnLoadMethodAttributes (297ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Refreshing native plugins compatible for Editor in 4.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.7 MB). Loaded Objects now: 4856.
+Memory consumption went from 125.7 MB to 122.0 MB.
+Total: 19.521000 ms (FindLiveObjects: 2.371700 ms CreateObjectMapping: 2.260700 ms MarkObjects: 10.612300 ms  DeleteObjects: 4.272700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.492 seconds
+Refreshing native plugins compatible for Editor in 1.90 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.395 seconds
+Domain Reload Profiling: 3878ms
+	BeginReloadAssembly (355ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (83ms)
+	RebuildCommonClasses (106ms)
+	RebuildNativeTypeToScriptingClass (31ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (926ms)
+		LoadAssemblies (785ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (322ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (276ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2396ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1930ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (29ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (242ms)
+			ProcessInitializeOnLoadAttributes (1401ms)
+			ProcessInitializeOnLoadMethodAttributes (221ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (2ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (57ms)
+Refreshing native plugins compatible for Editor in 4.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.9 MB). Loaded Objects now: 4858.
+Memory consumption went from 125.7 MB to 121.8 MB.
+Total: 21.593500 ms (FindLiveObjects: 1.979300 ms CreateObjectMapping: 2.302800 ms MarkObjects: 11.818500 ms  DeleteObjects: 5.489400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.494 seconds
+Refreshing native plugins compatible for Editor in 1.67 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.356 seconds
+Domain Reload Profiling: 3842ms
+	BeginReloadAssembly (342ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (94ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (984ms)
+		LoadAssemblies (752ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (392ms)
+			TypeCache.Refresh (27ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (335ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (2358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1864ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (36ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (236ms)
+			ProcessInitializeOnLoadAttributes (1293ms)
+			ProcessInitializeOnLoadMethodAttributes (269ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (86ms)
+Refreshing native plugins compatible for Editor in 4.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (4.0 MB). Loaded Objects now: 4860.
+Memory consumption went from 125.7 MB to 121.7 MB.
+Total: 28.602400 ms (FindLiveObjects: 2.109700 ms CreateObjectMapping: 3.029600 ms MarkObjects: 14.901500 ms  DeleteObjects: 8.557100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.010 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.454 seconds
+Domain Reload Profiling: 2458ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (636ms)
+		LoadAssemblies (542ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (220ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (193ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (1455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1169ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (160ms)
+			ProcessInitializeOnLoadAttributes (802ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (39ms)
+Refreshing native plugins compatible for Editor in 4.71 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.9 MB). Loaded Objects now: 4862.
+Memory consumption went from 125.7 MB to 121.8 MB.
+Total: 24.043900 ms (FindLiveObjects: 1.296200 ms CreateObjectMapping: 2.290400 ms MarkObjects: 13.625700 ms  DeleteObjects: 6.827900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.541 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.470 seconds
+Domain Reload Profiling: 4008ms
+	BeginReloadAssembly (454ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (26ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (171ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (52ms)
+	LoadAllAssembliesAndSetupDomain (937ms)
+		LoadAssemblies (715ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (371ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (336ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (2472ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2044ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (1520ms)
+			ProcessInitializeOnLoadMethodAttributes (249ms)
+			AfterProcessingInitializeOnLoad (23ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (49ms)
+Refreshing native plugins compatible for Editor in 4.10 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.7 MB). Loaded Objects now: 4864.
+Memory consumption went from 125.7 MB to 122.0 MB.
+Total: 23.273300 ms (FindLiveObjects: 2.650000 ms CreateObjectMapping: 2.190400 ms MarkObjects: 13.751500 ms  DeleteObjects: 4.678900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.181 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.969 seconds
+Domain Reload Profiling: 3141ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (745ms)
+		LoadAssemblies (597ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (273ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (233ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1971ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1542ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (287ms)
+			ProcessInitializeOnLoadAttributes (972ms)
+			ProcessInitializeOnLoadMethodAttributes (220ms)
+			AfterProcessingInitializeOnLoad (27ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (41ms)
+Refreshing native plugins compatible for Editor in 7.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.7 MB). Loaded Objects now: 4866.
+Memory consumption went from 125.7 MB to 122.0 MB.
+Total: 28.833100 ms (FindLiveObjects: 1.897000 ms CreateObjectMapping: 2.440900 ms MarkObjects: 16.790300 ms  DeleteObjects: 7.700900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.012 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.473 seconds
+Domain Reload Profiling: 2480ms
+	BeginReloadAssembly (250ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (629ms)
+		LoadAssemblies (535ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (184ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1474ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1115ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (707ms)
+			ProcessInitializeOnLoadMethodAttributes (174ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (36ms)
+Refreshing native plugins compatible for Editor in 3.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4096 unused Assets / (3.9 MB). Loaded Objects now: 4868.
+Memory consumption went from 125.7 MB to 121.8 MB.
+Total: 27.764300 ms (FindLiveObjects: 1.614100 ms CreateObjectMapping: 2.826500 ms MarkObjects: 16.257800 ms  DeleteObjects: 7.064000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
